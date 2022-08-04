@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calender Module</title>
+</head>
+<style>
+    .empty-block{
+        background-color: #d9d9d9;
+    }
+    table {
+        margin-top: 10px;
+    }
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        text-align: center;
+        padding: 2px;
+    }
+</style>
+<body>
+    <div id="root"></div>
+    <h1>Calender</h1>
+    <h2 id="selected-tag"></h2>
+    <button id="prev-btn">Previous</button>
+    <button id="next-btn">Next</button>
+    <table id="calendar-table"></table>
+</body>
+<script type="module" src="index.js"></script>
+</html>
