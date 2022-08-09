@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    text-align: center;
+}
+
+.empty-block{
+    background-color: #e9e9e9;
+}
+
+.pd-5 {
+    padding: 10px;
+}
+.pd-10 {
+    padding: 10px;
+}
+.pd-20 {
+    padding: 20px;
+}
+.mr-5 {
+    margin: 5px;
+}
+.mr-10 {
+    margin: 10px;
+}
+.mr-20 {
+    margin: 20px;
+}
+
+
+.calendar-date-blocks {
+    cursor: pointer;
+}
+.calendar-date-blocks:hover{
+    background-color: #f2f2f2;
+}
+
+table {
+    margin: 20px auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 1.1rem;
+}
+
+th, td {
+    border: 1px solid black;
+}
+
+.calendar-controls{
+    width: 30%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.calendar-controls > button {
+    height: fit-content;
+    align-self: center;
+}
+
+
+.calendar-table {
+    display: flex;
+    justify-content: center;
+}
+
+.calendar-sub-table {
+    pointer-events: none;
+    opacity: 50%;
+    transform: scale(0.8);
+}
+
+.calendar-events-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.calendar-add-event-section {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    border: 1px solid black;
+}
+
+.calendar-show-event-section {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    border: 1px solid black;
+}
+.calendar-show-event-section p {
+    text-align: left;
+}
