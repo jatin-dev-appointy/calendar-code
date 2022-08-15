@@ -1,10 +1,6 @@
 const monthMap = ["January", "February", "March", "April", "May", "June",
     "July", "August", "September", "October", "November", "December"]
 
-export const dateToday = () => {
-    return new Date()
-}
-
 export const daysInMonth = (d) => {
     return new Date(d.getFullYear(), d.getMonth()+1, 0).getDate()
 }

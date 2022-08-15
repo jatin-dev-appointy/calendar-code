@@ -1,5 +1,4 @@
-import {Calendar} from "./Calendar/index.js";
-import {dateToday} from "./helpers/dateTime.js";
+import {AddCalendar} from "./Components/Calendar/index.js";
 
 const RootElement = document.getElementById('root')
-RootElement.appendChild(Calendar(dateToday()))
+AddCalendar(RootElement, new Date())
